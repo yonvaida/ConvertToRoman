@@ -1,0 +1,6 @@
+D:\personal\juniormind\ConvertToRoman\JuniorMindProblems\ConvertToRoman\bin\Debug\ConvertToRoman.dll
+D:\personal\juniormind\ConvertToRoman\JuniorMindProblems\ConvertToRoman\bin\Debug\ConvertToRoman.pdb
+D:\personal\juniormind\ConvertToRoman\JuniorMindProblems\ConvertToRoman\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\personal\juniormind\ConvertToRoman\JuniorMindProblems\ConvertToRoman\obj\Debug\ConvertToRoman.csprojResolveAssemblyReference.cache
+D:\personal\juniormind\ConvertToRoman\JuniorMindProblems\ConvertToRoman\obj\Debug\ConvertToRoman.dll
+D:\personal\juniormind\ConvertToRoman\JuniorMindProblems\ConvertToRoman\obj\Debug\ConvertToRoman.pdb

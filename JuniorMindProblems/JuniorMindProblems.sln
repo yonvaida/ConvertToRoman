@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertToRoman", "ConvertToRoman\ConvertToRoman.csproj", "{64A55BA6-83C5-43BD-B06E-6E3E0A86629B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64A55BA6-83C5-43BD-B06E-6E3E0A86629B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A55BA6-83C5-43BD-B06E-6E3E0A86629B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A55BA6-83C5-43BD-B06E-6E3E0A86629B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A55BA6-83C5-43BD-B06E-6E3E0A86629B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
