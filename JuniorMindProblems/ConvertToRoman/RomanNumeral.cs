@@ -12,11 +12,14 @@ namespace ConvertToRoman
             Assert.AreEqual("Number is in interval", validNumber(50));
         }
 
+       
         [TestMethod]
         public void convertNumberTest()
         {
-            Assert.AreEqual("Number", convertNumber(11));
+            Assert.AreEqual("XVIII", convertNumber(18));
         }
+
+        
 
         string validNumber(int number)
         {
@@ -28,30 +31,34 @@ namespace ConvertToRoman
             };
            
         }
-        string convertNumber(int number) {
-            switch (number)
+         string convertNumber(int number) {
+            int[] values = new int[] { 100, 90, 50, 40, 10, 9, 5, 4, 1 };
+            string[] numerals = new string[] { "C", "XC", "L", "XL", "X", "XI", "V", "IV", "I" };
+            int units, tens;
+            string numberConverted;
+                numberConverted = "";
+            for (int i = 0; i < 9; i++)
             {
-                case 1:
-                        return "I";
-                    break;
-                case 5:
-                        return "V";
-                    break;
-                case 10:
-                        return "X";
-                    break;
-                case 50:
-                        return "L";
-                    break;
-                case 100:
-                        return "C";
-                    break;
-                default:
-                    return "Number";
+                if (number / values[i] != 0)
+                {
+                    int iterations = number / values[i];
+                    for (int j = 0; j < iterations; j++)
+                    {
+                        numberConverted = numberConverted + numerals[i];
+                    }
+                    number = number % values[i];
+                }
 
             }
+            return numberConverted;
 
 
         }
+
     }
-}
+       
+      
+
+
+    }
+
