@@ -9,7 +9,11 @@ namespace ConvertToRoman
         [TestMethod]
         public void ValidNumber()
         {
-            Assert.AreEqual("Are in interval", RomanConverted(50));
+            Assert.AreEqual("number is in interval", RomanConverted(50));
+        }
+        public void CorectReturnedValue()
+        {
+            Assert.AreEqual("XI", RomanConverted(11));
         }
         string RomanConverted(int number)
         {
@@ -17,8 +21,12 @@ namespace ConvertToRoman
             {
                 return "Not in interval";
             }else {
-                return "Are in interval";
-            }
+                return "Number is in interval";
+            };
+           
+
+
+
         }
     }
 }
