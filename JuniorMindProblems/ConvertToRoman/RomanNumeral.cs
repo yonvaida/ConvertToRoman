@@ -7,15 +7,18 @@ namespace ConvertToRoman
     public class RomanNumeral
     {
         [TestMethod]
-        public void ValidNumber()
+        public void validNumberTest()
         {
-            Assert.AreEqual("number is in interval", RomanConverted(50));
+            Assert.AreEqual("Number is in interval", validNumber(50));
         }
-        public void CorectReturnedValue()
+
+        [TestMethod]
+        public void convertNumberTest()
         {
-            Assert.AreEqual("XI", RomanConverted(11));
+            Assert.AreEqual("Number", convertNumber(11));
         }
-        string RomanConverted(int number)
+
+        string validNumber(int number)
         {
             if (number < 0 && number > 100)
             {
@@ -24,7 +27,29 @@ namespace ConvertToRoman
                 return "Number is in interval";
             };
            
+        }
+        string convertNumber(int number) {
+            switch (number)
+            {
+                case 1:
+                        return "I";
+                    break;
+                case 5:
+                        return "V";
+                    break;
+                case 10:
+                        return "X";
+                    break;
+                case 50:
+                        return "L";
+                    break;
+                case 100:
+                        return "C";
+                    break;
+                default:
+                    return "Number";
 
+            }
 
 
         }
